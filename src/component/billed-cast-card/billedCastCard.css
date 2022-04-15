@@ -1,0 +1,14 @@
+.billed-cast-card{
+    min-width: 135px;
+    height: 100%;
+   border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.billed-cast-card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+}

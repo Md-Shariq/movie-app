@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+  margin: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fs-12{
+  font-size: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.fs-17{
+ font-size: 17px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-28{
+  font-size: 28px;
+}
+.fs-33 {
+  font-size: 33px;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-700{
+  font-weight: 700;
+}
+.ln-16{
+  line-height: 16px;
+}
+.ln-10{
+  line-height: 10px;
+}
+.golden{
+  color: gold;
+}
+.left-box{
+  border-right: 1px solid red ;
+  min-height: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.right-box {
   min-height: 100vh;
+  border-left: 1px solid red;
+  padding-top: 50px;
+  margin: 0px 10px 0px 10px;
+}
+.main-movie-box {
+  min-width: 90%;
+  height: 300px;
+  border-radius: 25px;
+  position: relative;
+  margin-right: 10px;
+}
+.movies-card {
+  width: 100%;
+  height: 150px;
+  /* background-color: red; */
+  border-radius: 8px;
+  position: relative;
+}
+.popular-movie-box{
+  width: 100%;
+  height: 75px;
   display: flex;
-  flex-direction: column;
+  margin-bottom: 13px;
+}
+.popular-movie-img {
+  min-width: 65px;
+  background-color: yellow;
+  border-radius: 8px;
+  height: 100%;
+}
+.search-movie {
+     border: 2px solid gray;
+    border-radius: 30px;
+    padding: 5px 20px;
+    outline: none;
+    width: 100%;
+}
+.select-movies {
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+.movie-poster{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  z-index: -1;
+}
+.movies-card-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  z-index: -1;
+}
+.card-plus-btn {
+  height: 35px;
+  width: 30px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.popular-movie-img-wrapper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.search-icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.now-playing-list {
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar {
+  display: none;
 }

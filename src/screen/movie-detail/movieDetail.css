@@ -1,0 +1,24 @@
+.detail-box{
+    width: 100%;
+   padding: 12px 0px;
+    background-color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detail-img-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/*card css*/
+
+
+.billed-cast-wrapper{
+    display: flex;
+    overflow-x: scroll;
+}
