@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+To run this app you first need to run 
+# npm install
+this will install the node module
+
+Then you need to run
+# npm start
+
+
+![Screenshot (51)](https://user-images.githubusercontent.com/84716166/163979647-18b60f3e-cc3c-4605-bc16-463a638bed3b.png)
+
+
+![Screenshot (52)](https://user-images.githubusercontent.com/84716166/163979716-0f7a4689-a3dd-43c3-8150-75d3d5ea04ce.png)
+
+![Screenshot (53)](https://user-images.githubusercontent.com/84716166/163979746-f5167f9c-9e89-4716-8bb8-14e8419a1d90.png)
+
+
+
+![Screenshot (54)](https://user-images.githubusercontent.com/84716166/163979784-154372eb-6388-4d5c-b492-07e21f8b3861.png)
+
+
+![Screenshot (55)](https://user-images.githubusercontent.com/84716166/163979819-6a7c5693-f440-4feb-94b0-7c170f0668e4.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
