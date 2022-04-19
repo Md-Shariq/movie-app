@@ -10,6 +10,8 @@ import Search from '../component/search/search'
 import SideNav from '../component/side-nav/sideNav'
 import { popularMovieApi, nowPlayingApi, latestMovieApi, upComingMovieApi } from '../service/apiService'
 import { imgSmallPath } from '../service/constant'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 export default function Home() {
 
@@ -56,7 +58,7 @@ export default function Home() {
                 <div className='mb-3'>
                     <a className='fw-500 text-secondary ps-4 text-decoration-none'>Now Playing</a>
                 </div>
-                <div className='now-playing-list'>
+                {/* <div className='now-playing-list'>
                     {
                         nowPlayingData.map((data) => {
                             return (
@@ -65,7 +67,19 @@ export default function Home() {
                         })          
                     }
 
-                </div>
+                </div> */}
+                <Carousel centerSlidePercentage={80} >
+                {
+                        nowPlayingData.map((data) => {
+                            return (
+                                <div>
+                                     <Poster img={data.backdrop_path} rating={data.vote_average} posterName={data.original_title} types="ACTION,ADVENTURE,COMEDY" match="%94 Match" handleClick={() => goToDetail(data.id)}  />
+                                </div>
+                               
+                            )
+                        })          
+                    }
+            </Carousel>
 
                 <div>
                     <p className='fw-500 text-secondary pt-4'>Up Coming</p>

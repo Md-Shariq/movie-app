@@ -5,7 +5,7 @@ import NavItem from '../nav-item/navItem'
 export default function SideNav() {
     return (
         <div className='left-box'>
-            <h3 className='pb-3'>Exxmon</h3>
+            <h3 className='pb-3'>Movie App</h3>
             <div className='pb-3'>
                 <p className='text-secondary fw-500'>Menu</p>
                 <Link to="/home"><NavItem icon="fa-solid fa-house" name="Home"  /></Link>
