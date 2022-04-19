@@ -1,9 +1,10 @@
 .detail-box{
     width: 100%;
    padding: 12px 0px;
-    background-color: brown;
+    background-color: black !important;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 .detail-img-wrapper {
     width: 100%;
