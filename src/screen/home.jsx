@@ -56,7 +56,7 @@ export default function Home() {
         <>
             <div className='middle-box pt-5'>
                 <div className='mb-3'>
-                    <a className='fw-500 text-secondary ps-4 text-decoration-none'>Now Playing</a>
+                    <a className='fw-500 text-secondary ps-4 text-decoration-none'>Now Playings</a>
                 </div>
                 {/* <div className='now-playing-list'>
                     {
